@@ -70,7 +70,20 @@ img {
   font-size:48px;
   text-decoration: underline;
 }
-.container{
+.box{
+  border: 1px solid black;
+  padding: 20px;
+}
+.box p {
+  font-size: 24px;
+}
+.container {
+  max-width: 1000px;
+}
+div {
+  margin: 0 auto;
+}
+.container {
   max-width: 1000px;
   margin: 0 auto;
 }
