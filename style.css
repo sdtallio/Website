@@ -11,7 +11,8 @@ body{
   color: ChocolateBrown;
   font-family: RedRose, cursive;
   font-size: 14px;
-  }
+  background-image: url(images/moroccan-flower-dark.png);
+}
   h1{
   color: ChocolateBrown;
   font-size: 36px;
@@ -34,6 +35,8 @@ p{
 }
 section li  {
   color: saddlebrown;
+  float: left;
+  width: 25%
 }
 a {
   color: saddlebrown;
@@ -51,7 +54,7 @@ footer {
   padding: 30px;
 }
 header{
-  border-bottom: 5px solid grey;
+  border-bottom: 5px solid Black;
 }
 section {
   border: 1px solid gainsboro;
@@ -61,8 +64,36 @@ section {
 }
 img {
   height: 500px;
+  padding: 15px;
 }
 .title{
   font-size:48px;
   text-decoration: underline;
+}
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.box{
+  background-image:url(images/moroccan-flower-dark.png);
+  background-size: 100%;
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+}
+.banner{
+  height: 350px;
+  background-image: url(images/plant.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner{
+  background-position: center;
+}
+.photo{
+  background-position: 50% right;
+}
+.icon{
+  background-position: 0 100px;
 }
