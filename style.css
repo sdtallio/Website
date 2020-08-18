@@ -11,27 +11,45 @@ body{
   color: ChocolateBrown;
   font-family: RedRose, cursive;
   font-size: 14px;
-  background-image: url(images/moroccan-flower-dark.png);
+  background-image: url(images/fancy-cushion.png);
 }
-  h1{
+  /* h1{
   color: ChocolateBrown;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 900;
   font-style: italic;
   text-align: left;
   margin-bottom: 20px;
-}
+} */
 header h1{
   text-align: center;
-}
-h2{
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 60px;
+  color: Goldenrod;
+  margin-bottom: 60px;
   font-style: italic;
+}
+h2 {
+  font-size: 25px;
+  color: lightpink;
+  text-align: center;
+}
+h3{
+  font-size: 25px;
+  font-weight: 300;
+  /* font-style: italic; */
   margin-bottom: 20px;
+  color: ChocolateBrown;
+  text-align: center;
+}
+h4{
+  font-size: 15px;
+  color: pink;
+  text-align: center;
+  font-style: italic;
 }
 p{
   line-height: 2;
+  color: goldenrod;
 }
 section li  {
   color: saddlebrown;
@@ -70,29 +88,23 @@ img {
   font-size:48px;
   text-decoration: underline;
 }
-.box{
-  border: 1px solid black;
-  padding: 20px;
-}
-.box p {
-  font-size: 24px;
-}
-.container {
-  max-width: 1000px;
-}
-div {
-  margin: 0 auto;
+/* .box p {
+  font-size: 8px;
+  background-color:white; */
 }
 .container {
   max-width: 1000px;
   margin: 0 auto;
 }
 .box{
-  background-image:url(images/moroccan-flower-dark.png);
+  background-image:url(images/fancy-cushion.png);
   background-size: 100%;
   width: 100px;
   height: 100px;
   background-repeat: no-repeat;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 0 auto;
 }
 .banner{
   height: 350px;
@@ -101,12 +113,47 @@ div {
   background-size: cover;
   background-position: center;
 }
-.banner{
-  background-position: center;
-}
 .photo{
   background-position: 50% right;
 }
 .icon{
   background-position: 0 100px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: RedRose, cursive;
+}
+
+/* The grid: Three equal columns that floats next to each other */
+.column {
+  float: left;
+  width:25%;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: Saddlebrown;
+}
+
+.containerTab {
+  padding: 20px;
+  color: Saddlebrown;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color:black;
+  font-size: 35px;
+  cursor: pointer;
 }
