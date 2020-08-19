@@ -27,6 +27,7 @@ header h1{
   color: Goldenrod;
   margin-bottom: 60px;
   font-style: italic;
+  text-shadow: 2px 4px pink;
 }
 h2 {
   font-size: 25px;
@@ -42,19 +43,27 @@ h3{
   text-align: center;
 }
 h4{
-  font-size: 15px;
-  color: pink;
+  font-size: 30px;
+  color: Saddlebrown;
   text-align: center;
   font-style: italic;
 }
+h5{
+  font-size: 30px;
+  color: Saddlebrown;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 20px;
+}
 p{
-  line-height: 2;
+  line-height: 1;
   color: goldenrod;
 }
 section li  {
   color: saddlebrown;
   float: left;
-  width: 25%
+  width: 30%;
+  font-size: 20px;
 }
 a {
   color: saddlebrown;
@@ -69,24 +78,30 @@ a:visited {
 header,
 section,
 footer {
-  padding: 30px;
+  padding: 50px;
 }
 header{
-  border-bottom: 5px solid Black;
+  border-bottom: 5px solid pink;
 }
 section {
   border: 1px solid gainsboro;
   background-color: bisque;
-  margin: 30px;
+  margin: 50px;
   padding: 30px;
 }
 img {
-  height: 500px;
-  padding: 15px;
+  /* height: 500px;
+  width: 400px;
+  padding: 10px; */
+  border-radius: 50%;
+  opacity: 0.7;
+  float: left;
+  margin: 50px;
 }
 .title{
-  font-size:48px;
+  font-size:35px;
   text-decoration: underline;
+  margin: 30px;
 }
 /* .box p {
   font-size: 8px;
@@ -107,14 +122,16 @@ img {
   margin: 0 auto;
 }
 .banner{
-  height: 350px;
+  height: 300px;
   background-image: url(images/plant.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  opacity: 0.5;
+  border: 2px solid gold;
 }
 .photo{
-  background-position: 50% right;
+  background-position: 40% right;
 }
 .icon{
   background-position: 0 100px;
@@ -131,9 +148,9 @@ body {
 .column {
   float: left;
   width:25%;
-  padding: 50px;
+  padding: 100px;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   cursor: pointer;
   color: Saddlebrown;
 }
@@ -154,6 +171,6 @@ body {
 .closebtn {
   float: right;
   color:black;
-  font-size: 35px;
+  font-size: 20px;
   cursor: pointer;
 }
