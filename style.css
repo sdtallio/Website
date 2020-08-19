@@ -23,12 +23,12 @@ body{
 } */
 header h1{
   text-align: center;
-  font-size: 60px;
+  font-size: 65px;
   color: Goldenrod;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   font-style: italic;
-  text-shadow: 2px 4px pink;
-}
+  text-shadow: 2px 4px black;
+  }
 h2 {
   font-size: 25px;
   color: lightpink;
@@ -56,7 +56,7 @@ h5{
   margin-bottom: 20px;
 }
 p{
-  line-height: 1;
+  line-height: 1.5;
   color: goldenrod;
 }
 section li  {
@@ -75,11 +75,11 @@ a:hover {
 a:visited {
   color: grey;
 }
-header,
+/* header,
 section,
 footer {
-  padding: 50px;
-}
+  padding: 25px;
+} */
 header{
   border-bottom: 5px solid pink;
 }
@@ -126,7 +126,7 @@ img {
   background-image: url(images/plant.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center ;
   opacity: 0.5;
   border: 2px solid gold;
 }
@@ -161,7 +161,7 @@ body {
 }
 
 /* Clear floats after the columns */
-.row:after {
+.row::after {
   content: "";
   display: table;
   clear: both;
@@ -171,6 +171,22 @@ body {
 .closebtn {
   float: right;
   color:black;
-  font-size: 20px;
+  font-size: 35px;
   cursor: pointer;
+}
+div.gallery {
+  margin: 5px;
+  /* border: 1px solid; */
+  float: left;
+  /* width: 180px; */
+}
+ .headercombo img{
+  float: right;
+  width: 150px;
+  height: 150px;
+}
+ .headercombo h1{
+  float: center;
+  top: 18px;
+  left: 10px;
 }
