@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>My Website</title>
+    <title>FLUTTER</title>
+    <link rel="shortcut icon" type=:"image/png" href="images/lashdrawfab.png">
+
     <meta charset="utf-8">
     <link rel="stylesheet"
       href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap" rel="stylesheet">
   <script src="ExpandingGrid.js"></script>
     <header id="header">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="slideshow.js"></script>
 </head>
 <body>
-<section>
+<!--<section>
    <div class="headercombo">
      <img src="images/lashdraw.png">
-     <img src="images/Rlashdraw.png">
+     <img src="images/Rlashdraw.png">-->
+
      <h1>FLUTTER</h1>
-   </div>
+
+   <!--</div>-->
   <!--<h1>FLUTTER<img src="images/lashdraw.png"
   alt="lash"
   width="200"></h1>-->
-</section>
+<!--</section>-->
 
   <h2>Eyelash Extensions<h2><br>
 </html>
-  Eyelash extensions are a cosmetic application used to enhance the length, curl, fullness, and thickness of natural eyelashes.
+  <p>Eyelash extensions are a cosmetic application used to enhance the length, curl, fullness, and thickness of natural eyelashes.</p>
     <!-- Hello There -->
     <header>
 <div class="banner"></div>
       <h3 class="title">About me</h3>
 
   <div>
-      <p>I graduated from <strong>Interior Academy of Hairdressing</strong> in 2005 with certificates in Hairdressing and Esthetics. I owned and operated my own salon for 8 years. I have recently taken time away to raise my 4 beautiful children and I'm happy to announce I am back into the working field and putting my energy into the world of <em>eyelash extensions.</em> I recieved my training from Willow Lash Labs Inc and very excited to offer this fabulous service. </p>
+      <p>I graduated from <strong>Interior Academy of Hairdressing</strong> in 2005 with certificates in Hairdressing and Esthetics.<br>I owned and operated my own salon for 8 years.<br> I have recently taken time away to raise my 4 beautiful children and I'm happy to announce I am back into the working field and putting my energy into the world of <em>eyelash extensions.</em><br> I recieved my training from Willow Lash Labs Inc and very excited to offer this fabulous service.</p>
   </div>
     </header>
 <!--<div class="banner"></div>-->
@@ -66,38 +72,39 @@
       </section>
         <!-- Full-width columns: (hidden by default) -->
     <div id="b1" class="containerTab" style="display:none;>
-          <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
           <h4>Mink</h4>
           <p>Real mink lashes come from the Mink tail, giving you a light, fluffy, soft natural look. More bold and slightly glossier.</p>
       </div>
 
       <div id="b2" class="containerTab" style="display:none;>
-          <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
           <h4>Faux Mink</h4>
           <p>Man-made poly-fibres, designed to imitate real mink fur. They are very fine, soft, and silky, just like real fur. However, they have been imporved, in that if you wet them, they won't lose their curl. </p>
       </div>
 
       <div id="b3" class="containerTab" style="display:none;>
-          <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
           <h4>Silk</h4>
           <p>Mid-weight, finer and more flexible then the synthetic type. Silk lashes have that rich black colour therefor best used for special occations. Silk are known to be the least comfortable type of lash extension.  </p>
       </div>
 
       <div id="b4" class="containerTab" style="display:none;>
-          <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
           <h4>Synthetic</h4>
           <p>Made from a polished, acrylic material and are the firmest/sturdiest of all. Most suitable for those with healthy, dense lashes of their own. Because they are heavier in weight they are not recommended for long-term use. </p>
       </div>
 
       <section>
         <h5>Choosing Your Style</h5>
-        <ol>
+        <ul>
           <li>Classic</li>
           <li>Volume</li>
+          <li>Hybrid</li>
           <li>Russian Volume</li>
-        </ol>
+        </ul>
         </section>
-<div class="row">
+<!--<div class="row">
   <div class="gallery">
 <img src="images/lashes.jpg"
   alt="lashes photo"
@@ -109,14 +116,62 @@
   alt="volume photo"
   width="400"
   height="500">
-</div><br>
+</div><br>-->
+<section>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="images/salon.jpg" style="width:50%">
+  <div class="text">Flutter</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="images/lashapplication.jpg" style="width:30%">
+  <div class="text">Application</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="images/hybrid.jpg" style="width:50%">
+  <div class="text">Classic</div>
+</div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="images/lashes.jpg" style="width:30%">
+    <div class="text">Volume</div>
+</div>
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 5</div>
+      <img src="images/volumeLashes.jpg" style="width:50%">
+      <div class="text">Russian</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+</section>
+<br>
 
 
-    <section>
+<footer>
 <a href="https://www.willowlashlabs.ca"
   target="_blank">
     Willowlashlabs
 </a>
+
       <a href="https://sugarlashpro.ca">
         <p>Sugarlash Supplies</p>
       </a>
@@ -124,7 +179,7 @@
       <a href="#header">Return to top</a>
         <p>Website made by Shaina.</p>
       </footer>
-    </section>
+
 </body>
 <!--<div class="container">
 

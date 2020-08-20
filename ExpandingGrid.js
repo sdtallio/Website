@@ -1,3 +1,4 @@
+
 // Hide all elements with class="containerTab", except for the one that matches the clickable grid column
 function openTab(tabName) {
   var i, x;
