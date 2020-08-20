@@ -26,10 +26,10 @@ body{
 header h1{
   text-align: center;
   font-size: 65px;
-  color: Goldenrod;
-  margin-bottom: 35px;
+  color: goldenrod;
+  margin-bottom: 20px;
   font-style: italic;
-  text-shadow: 2px 4px pink;
+  text-shadow: 2px 4px black;
   padding: 50px;
 }
 
@@ -104,6 +104,7 @@ section {
   background-color: bisque;
   margin: 50px;
   padding: 30px;
+  background-image: linear-gradient(bisque, goldenrod);
 }
 
 img {
